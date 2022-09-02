@@ -1,0 +1,253 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo{
+    font-size: 22px;
+}
+.logo_{
+    font-size: 23px;
+}
+.form{
+    width: 450px;
+    height: 650px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 0.5px 3px;
+    font-family: sans-serif;
+    letter-spacing: 0.3px;
+}
+
+.button{
+    border-radius: 3px;
+    font-family: sans-serif;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    padding: 6px 22px 6px 15px;
+    margin: -151px -61px -42px 281px
+}
+a{
+    text-decoration: none;
+}
+.Log{
+
+    justify-content: left;
+    font-size: 17px;
+    margin: 0px 0px 0px 10px;
+    margin-bottom: 130px;
+
+}
+.name{
+    position: relative;
+    border-radius: 10px solid;
+
+
+}
+.lastname{
+    position: relative;
+    margin: -36px 11px 15px 191px;;
+    margin-bottom: 10px;
+}
+.gmail{
+    padding: -16px 10px 10px 10px;
+    font-size: 16px;
+    margin: 23px 3px -2px 0px;
+    letter-spacing: 1px;
+
+}
+.Gmail{
+    height: 36px;
+    width: 366px;
+    border-radius: 4px;
+}
+.Name{
+    height: 36px;
+    border-radius: 4px;
+}
+.Lastname{
+    height: 36px;
+    border-radius: 4px;
+}
+.nameuse{
+    font-size: 13px;
+    line-height: 1.3;
+    letter-spacing: 0.2px;
+}
+.usegmail{
+    font-size: 15px;
+    line-height: 50px
+}
+.Google{
+    margin: 13px 19px 22px 2px;
+    font-size: 25px;
+}
+.creatacc{
+    margin: 10px 10px 10px 10px;
+    font-size: 28px;
+}
+.vertypassword{
+    height: 36px;
+}
+.againpassword{
+    margin: -36px 10px 10px 191px;
+}
+.password1{
+    height: 36px;
+    border-radius: 4px;
+}
+.password2{
+    height: 36px;
+    border-radius: 4px;
+}
+.lasttext{
+    font-size: 13px;
+}
+.showpassword{
+    margin: 9px -9px 139px -6px;
+}
+.butt{
+    margin: -27px 10px 10px 10px;
+    border-color: gray;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
